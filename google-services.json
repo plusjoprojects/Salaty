@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "134978605807",
+    "project_id": "salatey-2c00e",
+    "storage_bucket": "salatey-2c00e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134978605807:android:1b2641d6fa346b8361411a",
+        "android_client_info": {
+          "package_name": "com.salatey.plus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134978605807-2kjb10apdsvo2em7p1knksfeejatguke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlVpZtcNFH97_MRpfZ8be9iSFwzcjTM80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134978605807-2kjb10apdsvo2em7p1knksfeejatguke.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "134978605807-t1c4l4mdrem7hcplkn53itqlcth0f6oo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.salatey.plus"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

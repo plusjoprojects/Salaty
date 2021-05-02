@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>134978605807-t1c4l4mdrem7hcplkn53itqlcth0f6oo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.134978605807-t1c4l4mdrem7hcplkn53itqlcth0f6oo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBsHSM2nS1llJLelsHvgDQ67AtLaEmyjCA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>134978605807</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.salatey.plus</string>
+	<key>PROJECT_ID</key>
+	<string>salatey-2c00e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>salatey-2c00e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:134978605807:ios:d8e1617b10636ece61411a</string>
+</dict>
+</plist>

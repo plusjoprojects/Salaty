@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "salatk",
-    "slug": "salatk",
+    "name": "صلاتي",
+    "slug": "salatey",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "salatey",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -19,13 +19,27 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.salatey.plus",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-8749426160957410~3356576250"
+      },
+      "googleServicesFile":"./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "useNextNotificationsApi": true,
+      "package": "com.salatey.plus",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+      ],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-8749426160957410~3192924727"
+      },
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
