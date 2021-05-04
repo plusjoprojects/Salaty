@@ -11,7 +11,7 @@ function SetupNotification() {
       StorageToken.notificationToggle
     );
     if (!notificationToggle) {
-      let db = SQLite.openDatabase("salaty_db");
+      let db = SQLite.openDatabase("salate_db");
       let query = "SELECT * FROM prays";
       db.transaction((tx) => {
         tx.executeSql(
@@ -27,7 +27,7 @@ function SetupNotification() {
       });
     } else {
       if (notificationToggle == "true") {
-        let db = SQLite.openDatabase("salaty_db");
+        let db = SQLite.openDatabase("salate_db");
         let query = "SELECT * FROM prays";
         db.transaction((tx) => {
           tx.executeSql(

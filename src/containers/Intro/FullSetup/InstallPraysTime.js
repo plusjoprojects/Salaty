@@ -58,7 +58,7 @@ function PraysTimeHandler() {
         
         
         async function insertToDB(prays,_dateNumber) {
-            let db = SQLite.openDatabase("salaty_db")
+            let db = SQLite.openDatabase("salate_db")
             let query = `INSERT INTO prays (prays,year,month,day) VALUES (?,?,?,?)`
             db.transaction(tx => {
                 tx.executeSql(query,[prays,_dateNumber.year,_dateNumber.month,_dateNumber.day])

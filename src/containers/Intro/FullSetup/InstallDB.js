@@ -3,7 +3,7 @@ import { View } from "react-native";
 import * as SQLite from "expo-sqlite";
 
 function InstallDB() {
-  let db = SQLite.openDatabase("salaty_db");
+  let db = SQLite.openDatabase("salate_db");
 
   let CreateDB = async () => {
     let status = 0;

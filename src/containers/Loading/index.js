@@ -26,7 +26,7 @@ let Loading = (props) => {
   let GetPraysTime = () => {
     InstallPraysLogs.CreatePraysLogs()
     // Variables
-    let db = SQLite.openDatabase("salaty_db");
+    let db = SQLite.openDatabase("salate_db");
     let date = new Date();
     let today = date.getDate();
     let query = "SELECT * FROM prays WHERE day = ? LIMIT 1";
@@ -80,7 +80,7 @@ let Loading = (props) => {
   let MonthChecker = () => {
     let date = new Date();
     let month = date.getMonth() + 1;
-    let db = SQLite.openDatabase("salaty_db");
+    let db = SQLite.openDatabase("salate_db");
 
     let query = "SELECT month FROM prays LIMIT 1";
     db.transaction((tx) => {
