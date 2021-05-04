@@ -4,7 +4,7 @@ import * as SQLite from "expo-sqlite";
 import { Helper } from "../../../services";
 
 function InstallPraysLogs() {
- let db = SQLite.openDatabase("salate_db")
+ let db = SQLite.openDatabase("salaty_db")
   let CreatePraysLogs = () => {
     let Query = `CREATE TABLE IF NOT EXISTS prays_logs (
             pray text,

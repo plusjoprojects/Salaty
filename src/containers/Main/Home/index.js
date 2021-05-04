@@ -42,9 +42,9 @@ let Home = ({prays,setPray}) => {
 
     InstallAnalytics()
 
-    setTimeout(() => {
-      CallAds()
-    },6000)
+    // setTimeout(() => {
+    //   CallAds()
+    // },60000)
   },[])
 
   return (

@@ -10,7 +10,7 @@ import { UserActions } from "../../../stores";
 
 let HandlePraysLogs = (props) => {
   let { setTodayLogs, setYesterdayLogs,setLast30Days,setLastSevenDaysLogs } = props;
-  let db = SQLite.openDatabase("salate_db");
+  let db = SQLite.openDatabase("salaty_db");
 
   let InstallTodayLogs = () => {
     let today = moment();
@@ -106,10 +106,10 @@ let HandlePraysLogs = (props) => {
   };
 
   let InstallPraysLogs = () => {
-    // InstallTodayLogs();
-    // InstallYesterdayLogs();
-    // InstallLastSevenDays();
-    // InstallLast30Days()
+    InstallTodayLogs();
+    InstallYesterdayLogs();
+    InstallLastSevenDays();
+    InstallLast30Days()
   };
 
   React.useEffect(() => {

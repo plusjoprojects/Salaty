@@ -7,6 +7,7 @@ import 'moment/locale/ar';
 function HandlerPrays() {
     let CheckNowPray = (prays) => {
         let _prays = Helper.PraysFilter(prays)
+        console.log(_prays)
         let fixedDate = Helper.FixDate(new Date())
         let nextPraysList = []
         let pastPraysList = []
@@ -23,11 +24,14 @@ function HandlerPrays() {
         let nextPray = {}
         let leftToPray = ""
         if(pastPraysList.length >= 1) {
+            console.log("if past prasy list >= 1",pastPraysList)
             // Make Last Pray in past prays list is the currect pray
             nowPray = pastPraysList[pastPraysList.length -1]
         }else {
             // Make Now Pray Is Isha from last day 
-            nowPray = _prays[prays.length -1]
+            console.log("if past prasy list >= 1",pastPraysList)
+
+            nowPray = _prays[_prays.length -1]
         }
         if(nextPraysList.length >= 1) {
             // Make First The next pray

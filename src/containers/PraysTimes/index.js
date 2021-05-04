@@ -41,7 +41,7 @@ let PraysTimes = () => {
   }
 
   let InstallPrays = (day) => {
-    let db = SQLite.openDatabase("salate_db")
+    let db = SQLite.openDatabase("salaty_db")
     let dat = moment()
     dat.set("date", day)
     let query = "SELECT * FROM prays WHERE month = ? AND day = ?"

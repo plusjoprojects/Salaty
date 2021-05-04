@@ -25,8 +25,8 @@ function NotificationPermissions() {
             }
             if (finalStatus !== 'granted') {
                 // Here To Fetch is not accept permissions
-                alert('Failed to get push token for push notification!');
-                return;
+                // alert('Failed to get push token for push notification!');
+                return "none"
             }
             token = (await Notifications.getExpoPushTokenAsync()).data;
 

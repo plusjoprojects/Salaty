@@ -11,7 +11,7 @@ let MiddlePanel = ({ user }) => {
   let { nowPray } = user;
   let [haveLog, setHaveLog] = React.useState(false);
   let [show, setShow] = React.useState(true);
-  let db = SQLite.openDatabase("salate_db");
+  let db = SQLite.openDatabase("salaty_db");
   let today = new Date();
   let dat = Helper.FixDate(today);
   let CheckPrayLog = async () => {

@@ -2,7 +2,7 @@
   "expo": {
     "name": "صلاتي",
     "slug": "salatey",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "salatey",
@@ -24,7 +24,10 @@
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-8749426160957410~3356576250"
       },
-      "googleServicesFile":"./GoogleService-Info.plist"
+      "googleServicesFile":"./GoogleService-Info.plist",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Salaty App - Need the permission to get your current location , To follow prayer times according to the area you are in"
+      }
     },
     "android": {
       "adaptiveIcon": {
